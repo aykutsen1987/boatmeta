@@ -1,0 +1,9 @@
+{
+  "name": "boatmeta-server",
+  "version": "1.1.0",
+  "description": "BoatMeta realtime relay (rooms) + leaderboard (Neon PostgreSQL)",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": { "pg": "^8.13.0", "ws": "^8.18.0" }
+}

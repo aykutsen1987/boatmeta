@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: boatmeta-server
+    runtime: node
+    plan: free
+    region: frankfurt        # closest to Türkiye
+    buildCommand: npm install
+    startCommand: node server.js
+    healthCheckPath: /
